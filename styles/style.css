@@ -38,6 +38,10 @@ body {
 .container img {
   border-radius: 0.6rem;
   margin-bottom: 0.5rem;
+  transition: 0.4s ease-in-out;
+}
+.container img:hover {
+  transform: rotate(90deg);
 }
 .container h1 {
   color: var(--Dark-blue);
